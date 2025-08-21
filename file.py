@@ -1,0 +1,23 @@
+file = open("input.txt", "w")
+file.write("Hello y'all My name is Sam Doe.\n")
+file.write("I am a software engineer.\n")
+file.write("I love coding in Python.\n")
+file.write("Python is a versatile programming language.\n")
+file.write("I enjoy solving problems with code.\n")
+
+file = open("input.txt", "r")
+content = file.read()
+print(content)
+words = content.split()
+word_count = len(words)
+
+content_upper = content.upper()
+file = open("output.txt", "w")  
+file.write(content_upper)
+file.write('\n')
+file.write(f'Total number of words: {word_count}\n')
+print("Successfully created output.txt with the content in uppercase and word count.")
+
+file = open("output.txt", "r")
+output_content = file.read()
+print(output_content)
