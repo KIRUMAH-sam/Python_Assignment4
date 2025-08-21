@@ -1,0 +1,5 @@
+Hello y'all My name is Sam Doe.
+I am a software engineer.
+I love coding in Python.
+Python is a versatile programming language.
+I enjoy solving problems with code.
